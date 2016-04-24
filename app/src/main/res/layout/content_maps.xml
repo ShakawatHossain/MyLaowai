@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/colorwhite"
+    tools:context="gnt.com.mylaowai.MapsActivity"
+    tools:showIn="@layout/activity_maps">
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"></WebView>
+    <FrameLayout
+        android:id="@+id/mpas_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="gnt.com.mylaowai.MyLaowaiFragment"
+        />
+    <TextView
+        android:id="@+id/state_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="State Name"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+    <ListView
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/list_view"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="#F0ffaa80"
+        android:foregroundGravity="center"
+        ></ListView>
+
+
+</RelativeLayout>

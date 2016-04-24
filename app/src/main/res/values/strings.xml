@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My Laowai</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="states_array">
+        <item>Zhejiang</item>
+        <item>Yunnan</item>
+        <item>Xizang (Tibet)</item>
+        <item>Xinjiang Uygur</item>
+        <item>Taiwan</item>
+        <item>Tianjin</item>
+        <item>Shanxi</item>
+        <item>Shanghai</item>
+        <item>Shandong</item>
+        <item>Sichuan</item>
+        <item>Shaanxi</item>
+        <item>Quinghai</item>
+        <item>Ningxia Hui</item>
+        <item>Nei Mongol</item>
+        <item>Macau</item>
+        <item>Liaoning</item>
+        <item>Jiangxi</item>
+        <item>Jiangsu</item>
+        <item>Jilin</item>
+        <item>Hubei</item>
+        <item>Hunan</item>
+        <item>Heilongjiang</item>
+        <item>Hong Kong</item>
+        <item>Henan</item>
+        <item>Hebei</item>
+        <item>Hainan</item>
+        <item>Guizhou</item>
+        <item>Guangxi Zhuang</item>
+        <item>Gansu</item>
+        <item>Guangdong</item>
+        <item>Fujian</item>
+        <item>Chongqing</item>
+        <item>Beijing</item>
+        <item>Anhui</item>
+    </string-array>
+
+</resources>
